@@ -40,7 +40,7 @@ tfresh.isValidResetConditions = function(resetParam)
                 print("(TFresh) Duplicate reset condition:"..condition);
                 return false;
             elseif seconds == 0 and resetCount > 1 then
-                print("(Tfresh) 0 can't be combined, it's short-hand for no conditions.'")
+                print("(Tfresh) 0 can't be combined, it's short-hand for no condition.")
                 return false;
             else
                 dupeCheck["seconds"] = true;
