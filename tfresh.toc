@@ -1,0 +1,10 @@
+## Interface: 20501
+## Title: TotemSequence aka tfresh
+## Notes: Totem castsequence macro tool.
+## Version: 1.01
+## SavedVariablesPerCharacter: TFreshConfig
+tfreshUtil.lua
+tfreshModel.lua
+tfresh.lua
+tfreshOptions\util.lua
+tfreshOptions\panel.lua
